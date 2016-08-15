@@ -1,0 +1,47 @@
+@import "base"
+
+section.header
+  position: relative
+  margin-top: 74px
+  +size(100%, 227px)
+  overflow: hidden
+  height: 227px
+  .container
+    position: relative
+    height: 227px
+    margin-bottom: 0
+    .subscribe
+      color: white
+      font-size: 10px
+      position: absolute
+      top: 87px
+      right: 0
+      @extend .m-btn
+
+    .info
+      padding-top: 148px
+      color: white
+      .name
+        display: block
+        font-size: 24px
+        text-transform: uppercase
+        .zmdi
+          color: white
+          opacity: 0.25
+          font-size: 14px
+          line-height: 20px
+          margin-left: 20px
+      .genres
+        font-size: 10px
+        opacity: 0.25
+  .bg
+    display: block
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    position: absolute
+    width: 100%
+    min-height: 227px
+    z-index: -2
+
